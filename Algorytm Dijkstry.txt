@@ -1,0 +1,34 @@
+To mówi Wikipedia. Jeœli chcesz lepiej zrozumieæ problem odwiedŸ linki:
+
+Intuicyjny dowód:
+https://www.quora.com/What-is-the-simplest-intuitive-proof-of-Dijkstra%E2%80%99s-shortest-path-algorithm
+
+Implementacja algorytmu w C++:
+http://stackoverflow.com/questions/3447566/dijkstras-algorithm-in-c
+
+Wiêcej Wikipedii:
+https://pl.wikipedia.org/wiki/Algorytm_Dijkstry
+
+
+
+Algorytm Dijkstry, opracowany przez holenderskiego informatyka Edsgera Dijkstrê, s³u¿y do znajdowania najkrótszej œcie¿ki z pojedynczego Ÿród³a w grafie o nieujemnych wagach krawêdzi.
+
+Maj¹c dany graf z wyró¿nionym wierzcho³kiem (Ÿród³em) algorytm znajduje odleg³oœci od Ÿród³a do wszystkich pozosta³ych wierzcho³ków. £atwo zmodyfikowaæ go tak, aby szuka³ wy³¹cznie (najkrótszej) œcie¿ki do jednego ustalonego wierzcho³ka, po prostu przerywaj¹c dzia³anie w momencie dojœcia do wierzcho³ka docelowego, b¹dŸ transponuj¹c tablicê incydencji grafu.
+
+Algorytm Dijkstry znajduje w grafie wszystkie najkrótsze œcie¿ki pomiêdzy wybranym wierzcho³kiem a wszystkimi pozosta³ymi, przy okazji wyliczaj¹c równie¿ koszt przejœcia ka¿dej z tych œcie¿ek.
+
+Algorytm Dijkstry jest przyk³adem algorytmu zach³annego.
+
+Algorytm(doœæ to zawi³e...):
+
+Przez s oznaczamy wierzcho³ek Ÿród³owy, w(i, j) to waga krawêdzi (i, j) w grafie.
+
+Stwórz tablicê d odleg³oœci od Ÿród³a dla wszystkich wierzcho³ków grafu. Na pocz¹tku d[s]=0, zaœ d[v]=\infty dla wszystkich pozosta³ych wierzcho³ków.
+Utwórz kolejkê priorytetow¹ Q wszystkich wierzcho³ków grafu. Priorytetem kolejki jest aktualnie wyliczona odleg³oœæ od wierzcho³ka Ÿród³owego s.
+Dopóki kolejka nie jest pusta:
+Usuñ z kolejki wierzcho³ek u o najni¿szym priorytecie (wierzcho³ek najbli¿szy Ÿród³a, który nie zosta³ jeszcze rozwa¿ony)
+Dla ka¿dego s¹siada v wierzcho³ka u dokonaj relaksacji poprzez u: jeœli d[u] + w(u, v) < d[v] (poprzez u da siê dojœæ do v szybciej ni¿ dotychczasow¹ œcie¿k¹), to d[v] := d[u] + w(u, v).
+Na koñcu tablica d zawiera najkrótsze odleg³oœci do wszystkich wierzcho³ków.
+
+Dodatkowo mo¿emy w tablicy poprzednik przechowywaæ dla ka¿dego wierzcho³ka numer jego bezpoœredniego poprzednika na najkrótszej œcie¿ce, co pozwoli na odtworzenie pe³nej œcie¿ki od Ÿród³a do ka¿dego wierzcho³ka – przy ka¿dej relaksacji w ostatnim punkcie u staje siê poprzednikiem v.
+

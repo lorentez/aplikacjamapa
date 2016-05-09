@@ -1,0 +1,5 @@
+Link do WIKI:
+https://pl.wikipedia.org/wiki/Algorytm_Floyda-Warshalla
+
+Wiele wyjaœnieñ:
+https://www.quora.com/Can-Floyd-Warshall-algorithm-be-used-to-find-shortest-cycle-in-an-undirected-graph
