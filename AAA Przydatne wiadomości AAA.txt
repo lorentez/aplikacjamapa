@@ -15,6 +15,10 @@ Podobnie jak wyżej.
 Raczej mało przydatny do naszych zastosować, aczkolwiek może się przydać. Jak dostać się z A do B "zahaczając" po drodze WSZYSTKIE punkty:
 https://www.quora.com/What-algorithm-could-I-use-to-determine-the-shortest-path-between-selected-points-on-a-map-if-all-points-need-to-be-visited
 
+Czasami w celu wyszukania drogi np dla kuriera, który musi rozwieźć ileś przesyłek i wrócić na miejsce przydatny może okazać się algorytm wykorzystujący problem chińskiego listonosza, którego zadaniem jest wyszukanie najkrótszej drogi wraz z powrotem do domu.
+  moim zdaniem dość dokładny opis problemu znajduje się tutaj:
+  http://www.mini.pw.edu.pl/MiNIwyklady/grafy/prob-list.html
+
 Od razu coś w C++:
 http://stackoverflow.com/questions/3447566/dijkstras-algorithm-in-c
 
