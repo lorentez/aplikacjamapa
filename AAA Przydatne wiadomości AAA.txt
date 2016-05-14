@@ -1,20 +1,21 @@
-Tutaj umieszcza³ i aktualizowa³ bêdê ciekawe informacja, na które uda³o mi siê natrafiæ. Proszê o zapoznanie siê z nimi.
+Tutaj umieszczaÅ‚ i aktualizowaÅ‚ bÄ™dÄ™ ciekawe informacja, na ktÃ³re udaÅ‚o mi siÄ™ natrafiÄ‡. ProszÄ™ o zapoznanie siÄ™ z nimi.
 
-W naszym projekcie bêdziemy musieli spojrzeæ na mapê, jak na graf, który sk³ada siê z wêz³ów i krawêdzi, gdzie ka¿da z nich ma swoja wagê, w naszym przypadku d³ugoœæ. Ka¿de skrzy¿owanie dwóch, lub wiêcej krawêdzi(dróg), bêdzie wêz³em. Po "wyprostowaniu" ulic i skrzy¿owañ bêdziemy mieli gotowy graf na którym mog¹ pracowaæ podane w innych plikach algprytmy.
+W naszym projekcie bÄ™dziemy musieli spojrzeÄ‡ na mapÄ™, jak na graf, ktÃ³ry skÅ‚ada siÄ™ z wÄ™zÅ‚Ã³w i krawÄ™dzi, gdzie kaÅ¼da z nich ma swoja wagÄ™, w naszym przypadku dÅ‚ugoÅ›Ä‡. KaÅ¼de skrzyÅ¼owanie dwÃ³ch, lub wiÄ™cej krawÄ™dzi(drÃ³g), bÄ™dzie wÄ™zÅ‚em. Po "wyprostowaniu" ulic i skrzyÅ¼owaÅ„ bÄ™dziemy mieli gotowy graf na ktÃ³rym mogÄ… pracowaÄ‡ podane w innych plikach algprytmy.
 
-Problem komiwoja¿era:
+Problem komiwojaÅ¼era:
 https://pl.wikipedia.org/wiki/Problem_komiwoja%C5%BCera
+http://www.mini.pw.edu.pl/MiNIwyklady/grafy/prob-komiw.html //tutaj dodajÄ™ link z nieco lepszym opisem problemu
 
-Mo¿e to byæ przydatne przy takich funkcjonalnoœciach naszego programu, jak szukanie trasy dojazdu przez jeden, lub kilka punktów poœrednich. Opisuje on, jak najszybciej/najtaniej dostaæ siê z miejsca do miejsca odwiedzaj¹c zadane miasta, zaczynaj¹c i koñcz¹c w danym miejscu. Czyli idealnie to, czego potrzebujemy.
+MoÅ¼e to byÄ‡ przydatne przy takich funkcjonalnoÅ›ciach naszego programu, jak szukanie trasy dojazdu przez jeden, lub kilka punktÃ³w poÅ›rednich. Opisuje on, jak najszybciej/najtaniej dostaÄ‡ siÄ™ z miejsca do miejsca odwiedzajÄ…c zadane miasta, zaczynajÄ…c i koÅ„czÄ…c w danym miejscu. Czyli idealnie to, czego potrzebujemy.
 
 Problem marszrutyzacji:
 https://pl.wikipedia.org/wiki/Problem_marszrutyzacji
-Podobnie jak wy¿ej.
+Podobnie jak wyÅ¼ej.
 
-Raczej ma³o przydatny do naszych zastosowaæ, aczkolwiek mo¿e siê przydaæ. Jak dostaæ siê z A do B "zahaczaj¹c" po drodze WSZYSTKIE punkty:
+Raczej maÅ‚o przydatny do naszych zastosowaÄ‡, aczkolwiek moÅ¼e siÄ™ przydaÄ‡. Jak dostaÄ‡ siÄ™ z A do B "zahaczajÄ…c" po drodze WSZYSTKIE punkty:
 https://www.quora.com/What-algorithm-could-I-use-to-determine-the-shortest-path-between-selected-points-on-a-map-if-all-points-need-to-be-visited
 
-Od razu coœ w C++:
+Od razu coÅ› w C++:
 http://stackoverflow.com/questions/3447566/dijkstras-algorithm-in-c
 
 SPFA - Shortest Path Faster Algorithm:
@@ -26,13 +27,12 @@ https://www.quora.com/How-does-Johnsons-algorithm-shortest-path-in-a-graph-with-
 Shortest Path in Directed Acyclic Graph:
 https://www.quora.com/What-is-the-reason-why-the-algorithm-for-computing-shortest-paths-on-DAGs-is-correct-aka-DAG-SP-DAG-shortest-Paths
 
-I jeszcze trochê wiêcej DAG:
+I jeszcze trochÄ™ wiÄ™cej DAG:
 http://www.geeksforgeeks.org/shortest-path-for-directed-acyclic-graphs/
 
-U³atwiaj¹ce zrozumienie problemu opisy:
+UÅ‚atwiajÄ…ce zrozumienie problemu opisy:
 https://pl.wikipedia.org/wiki/Problem_najkr%C3%B3tszej_%C5%9Bcie%C5%BCki
 
 https://en.wikipedia.org/wiki/Shortest_Path_Faster_Algorithm
-
 
 
