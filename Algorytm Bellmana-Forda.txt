@@ -1,0 +1,12 @@
+To mówi Wikipedia. Jeœli chcesz lepiej zrozumieæ problem odwiedŸ linki:
+
+Kolejna Quora, gdzie wiele rzeczy jest wyjaœnione:
+https://www.quora.com/What-is-an-simple-intuitive-proof-of-why-Bellman-Ford-algorithm-computes-shortest-paths#
+
+Link do WIKI:
+https://pl.wikipedia.org/wiki/Algorytm_Bellmana-Forda
+
+
+Algorytm Bellmana-Forda rozwi¹zuje problem najkrótszej œcie¿ki, tj. pozwala znaleŸæ œcie¿kê o najmniejszej wadze pomiêdzy dwoma wierzcho³kami w grafie wa¿onym. Idea algorytmu opiera siê na metodzie relaksacji (dok³adniej nastêpuje relaksacja V-1 razy ka¿dej z krawêdzi).
+
+W odró¿nieniu od algorytmu Dijkstry, poprawnoœæ algorytmu Bellmana-Forda nie opiera siê na za³o¿eniu, ¿e wagi w grafie s¹ nieujemne (nie mo¿e jednak wystêpowaæ cykl o ³¹cznej ujemnej wadze osi¹galny ze Ÿród³a). Za tê ogólnoœæ p³aci siê jednak wy¿sz¹ z³o¿onoœci¹ czasow¹. Dzia³a on w czasie O(V*E).

@@ -1,0 +1,12 @@
+To mówi Wikipedia. Jeœli chcesz lepiej poznaæ problem zajrzyj tutaj:
+
+Dlaczego t odzia³a:
+https://www.quora.com/Why-is-using-admissible-function-for-A*-search-guarantees-to-find-shortest-paths
+
+Wikipedia, a tam œwietny przyk³ad ilustruj¹cy dzia³anie algorytmu:
+https://pl.wikipedia.org/wiki/Algorytm_A*
+
+
+Algorytm A* – algorytm heurystyczny znajdowania najkrótszej œcie¿ki w grafie wa¿onym z dowolnego wierzcho³ka do wierzcho³ka spe³niaj¹cego okreœlony warunek zwany testem celu. Algorytm jest zupe³ny i optymalny, w tym sensie, ¿e znajduje œcie¿kê, jeœli tylko taka istnieje, i przy tym jest to œcie¿ka najkrótsza. Stosowany g³ównie w dziedzinie sztucznej inteligencji do rozwi¹zywania problemów i w grach komputerowych do imitowania inteligentnego zachowania.
+
+Algorytm zosta³ opisany pierwotnie w 1968 roku przez Petera Harta, Nilsa Nilssona oraz Bertrama Raphaela. W ich pracy naukowej zosta³ nazwany algorytmem A. Poniewa¿ jego u¿ycie daje optymalne zachowanie dla danej heurystyki, nazwano go A*.
