@@ -25,7 +25,7 @@ echo<<<END
 	<tr>
 		<td>Przewidywany czas</td> <td>0 h</td>
 	</tr>
-	
+	 
 	</table>
 	<br><a href="index.php">Powrot do strony </a>
 END;

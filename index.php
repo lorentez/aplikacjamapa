@@ -21,6 +21,6 @@
 	<input type="submit" value="Szukaj!" />
 </form>
 	
-	
+	 
 </body>
 </html>
