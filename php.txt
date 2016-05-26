@@ -1,0 +1,6 @@
+Ponizszy kurs programowania w jezyku PHP ma za zadanie zaznajomic osobe kompletnie nieobeznana z tym jezykiem na tyle, aby sama byla 
+w stanie napisac skrypt o srednim poziomie zlozonosci. Pomaga takze osobie wczesniej nieprogramujacej na zaznajomienie sie z technikami
+ programistycznymi. Kurs jest uniwersalny – mozna go stosowac do dowolnej wersji PHP – w szczególnych przypadkach, kiedy poszczególne 
+informacje nie dotycza wszystkich wersji, jest to wyrazniej zaznaczone.
+
+http://phpkurs.pl/
