@@ -1,0 +1,14 @@
+Obsluga XAMPP	
+Wlaczyc plik Xampp Control
+Wlaczyc Apache start
+ 
+
+Utworzenie pliku w htdocs o nazwie np inpg
+
+wrzucenie tam wszystkich plików z repozytorium 	(w sumie glównie te z katalogu mapa)
+
+w przegladarce wpisac  localhost//inpg/
+
+
+Na stronie mamy dwa okienka jedno do wpisywania miejsca startu drugie to celu
+Algorytm pokazuje nam trase i wyswietla wskazówki dojazdu
