@@ -1,20 +1,32 @@
 //Implementation for Dijkstra's SSSP(Single source shortest path) algorithm
 //This is an optimized algorithm running in O(E*log(V))
+
 #include <iostream>
 #include <queue>
 #include <vector>
 #include <climits>
+
 using namespace std;
+0
 #define INF INT_MAX //Infinity
-const int sz=10001; //Maximum possible number of vertices. Preallocating space for DataStructures accordingly
+
+const int sz=10001; //Maximum possible number of vertices.
+ 
+Preallocating space for DataStructures accordingly
+
 vector<pair<int,int> > a[sz]; //Adjacency list
+
 int dis[sz]; //Stores shortest distance
+
 bool vis[sz]={0}; //Determines whether the node has been visited or not
+
 void Dijkstra(int source, int n) //Algorithm for SSSP 
 {
     for(int i=0;i<sz;i++) //Set initial distances to Infinity
         dis[i]=INF;
-    //Custom Comparator for Determining priority for priority queue (shortest edge comes first)
+    //Custom Comparator for Determining priority for priority
+
+ queue (shortest edge comes first)
     class prioritize{public: bool operator ()(pair<int, int>&p1 ,pair<int, int>&p2){return p1.second>p2.second;}};
     priority_queue<pair<int,int> ,vector<pair<int,int> >, prioritize> pq; //Priority queue to store vertex,weight pairs
     pq.push(make_pair(source,dis[source]=0)); //Pushing the source with distance from itself as 0
