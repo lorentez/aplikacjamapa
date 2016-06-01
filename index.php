@@ -1,4 +1,5 @@
-<?php
+﻿<?php
+
 	
 	
 	if(isset($_POST['startAdres'],$_POST['metaAdres'],$_GET['action']))
@@ -13,6 +14,7 @@
 	}
 	
 ?>
+
 
 
 <!DOCTYPE html>
@@ -95,6 +97,7 @@
 				}
 			});
 		}
+
 		
 		function obslugaGeokodowania(wyniki, status)
 		{
