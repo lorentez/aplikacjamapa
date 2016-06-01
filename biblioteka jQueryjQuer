@@ -12,4 +12,15 @@ oraz rozbudowaną obsługę zdarzeń.
 
 Bibliotekę można zdobyć bezpośrednio ze strony www.jquery.com
 
+Aby możliwe było korzystanie z jQuery, konieczne jest uprzednie dołączenie pliku biblioteki do własnej strony internetowej.
+Można to zrobić na dwa sposoby: 
+-poprzez pobranie pliku biblioteki i umieszczenie we własnej aplikacji. 
+-odwołanie do pliku biblioteki umieszczonego na serwerze CDN.
 
+Jeśli instalujemy poprzez umieszczenie w aplikacji, wtedy Wybieramy link do jednej z dostępnych dystrybucji biblioteki. 
+W Naszym przypadku będzie to skompresowana wersja 1.11.4 - "Download the compressed, production jQuery 1.12.4".
+Umieszczamy plik na serwerze i w sekcji head strony dodajemy informację o lokalizacji pliku.
+
+<head>
+   <script type="text/javascript" src="sciezka-na-serwerze/jquery-1.12.4.min.js"></script> 
+</head>
