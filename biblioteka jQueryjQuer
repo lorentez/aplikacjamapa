@@ -1,0 +1,15 @@
+Uznałem że można będzie kiedyś wykorzystać tę bibliotekę: 
+jQuery to darmowa biblioteka programistyczna stworzona dla języka JavaScript.
+Za jej pomocą będzie można dodawać wiele ciekawych elementów i efektów animacji na naszej stronie. 
+Dzięki bezpłatnej bibliotece jQuerty będzie można dodawać dynamiczne zmiany strony i wykonywać zapytania w interfejsie AJAX. 
+Duża liczba skryptów oraz wtyczek opartych na bibliotece jQuery nie wymaga wprowadzania przez nas zmian w kodzie HTML do
+poprawnego działania, co znacznie usprawnia implementację.
+
+jQuery w znaczny sposób ułatwia korzystanie ze skryptowego języka programowania JavaScript i manipulowanie drzewem DOM
+(Document Object Model). Biblioteka ta pozwala również na wybranie dowolnego podzbioru węzłów modelu DOM oraz przetwarzanie węzłów
+dokumentu. Biblioteka programistyczna jQuery została wyposażona w funkcję zmiany i przypisywania licznych stylów do elementów
+oraz rozbudowaną obsługę zdarzeń.
+
+Bibliotekę można zdobyć bezpośrednio ze strony www.jquery.com
+
+
